@@ -14,3 +14,5 @@ composer require --dev phpunit/phpunit
 ![alt text](Pictures/composerRequire.PNG)  
 >
 
+![alt text](Pictures/composerRequireFin.PNG)  
+>
