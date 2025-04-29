@@ -1,4 +1,4 @@
-const { calculate } = require('../calculator');
+const { calculate } = require('../calculator'); // importer depuis calculator.js
 
 test('addition', () => {
     expect(calculate('2+3')).toBe(5);

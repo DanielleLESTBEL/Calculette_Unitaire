@@ -16,3 +16,16 @@ composer require --dev phpunit/phpunit
 
 ![alt text](Pictures/composerRequireFin.PNG)  
 >
+
+Création du fichier calculator.test.js
+
+Dans Bash, procéder à l'installation ou MAJ des fichiers "fonctionnels".
+
+Installer Node.js (pour installer le Package.json) : 
+npm init -y
+
+Mettre à jour Composer, si cela n'a pas déjà été fait (pour installer le PHPUNIT) : 
+composer require --dev phpunit/phpunit
+
+
+

@@ -1,0 +1,23 @@
+{
+  "name": "calculette_unitaire",
+  "version": "1.0.0",
+  "description": "****\r * Démarrer le projet CALCULETTE_UNITAIRE dans GITHUB et le cloner dans VSCode.  \r >\r * Créer l'arborescence selon l'énoncé de l'exercice, en ajoutant les données fournies.  \r >\r ![alt text](Pictures/arborescenceFromScratch.PNG)  \r >",
+  "main": "calculator.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielleLESTBEL/Calculette_Unitaire.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielleLESTBEL/Calculette_Unitaire/issues"
+  },
+  "homepage": "https://github.com/DanielleLESTBEL/Calculette_Unitaire#readme"
+}
