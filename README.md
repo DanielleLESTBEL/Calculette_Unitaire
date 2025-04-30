@@ -17,15 +17,34 @@ composer require --dev phpunit/phpunit
 ![alt text](Pictures/composerRequireFin.PNG)  
 >
 
-Création du fichier calculator.test.js
-
 Dans Bash, procéder à l'installation ou MAJ des fichiers "fonctionnels".
 
 Installer Node.js (pour installer le Package.json) : 
-npm init -y
-
-Mettre à jour Composer, si cela n'a pas déjà été fait (pour installer le PHPUNIT) : 
-composer require --dev phpunit/phpunit
+npm init -y  
+> ![alt text](Pictures/packageJsonNpmInit.PNG)   
 
 
+Création des fichiers CalculatorTest.php et  calculator.test.js 
+>  
+![alt text](Pictures/CalculatorTestPhp)  
 
+
+
+Avant de lancer les tests unitaires : 
+Installer jest.config.js
+=> npx jest --init  
+![alt text](Pictures/initialisationJest.PNG)  
+>
+![alt text](Pictures/initialiationJest2.PNG)  
+
+
+=> npx install jest --global   
+![alt text](Pictures/installationJest.PNG)
+
+
+Lancement du test sur la Calculette JS :
+=> npx jest tests/calculator.test.js  
+
+> ![alt text](Pictures/jestTestPassed.PNG)  
+
+Nouvel essai avec 
