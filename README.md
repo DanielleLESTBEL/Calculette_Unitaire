@@ -40,7 +40,7 @@ npm init -y
 
 ![alt text](Pictures/initialisationJest2.PNG)
 
-
+Puis, 
 <i>Commande</i> : npx install jest --global     
 
 ![alt text](Pictures/installationJest.PNG)
@@ -53,3 +53,31 @@ npm init -y
 > ![alt text](Pictures/jestTestPassed.PNG)  
 
 ![alt text](Pictures/calculatrice.PNG)    
+
+
+Addition : 
+![alt text](Pictures/addition.PNG)   
+  
+![alt text](Pictures/addition_result.PNG)   
+
+
+Soustraction :    
+![alt text](Pictures/soustraction.PNG)    
+![alt text](Pictures/soustraction_result.PNG)    
+
+
+Multiplication :     
+![alt text](Pictures/multiplication.PNG)
+![alt text](Pictures/multiplication_result.PNG)     
+     
+![alt text](Pictures/multiplier0.PNG)      
+![alt text](Pictures/multiplier0_result.PNG)     
+
+Division : 
+![alt text](Pictures/division.PNG)      
+![alt text](Pictures/division_result.PNG)     
+      
+![alt text](Pictures/diviser0.PNG)      
+![alt text](Pictures/diviser0_result.PNG)
+
+Priorisation des calculs : 
