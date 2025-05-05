@@ -6,8 +6,10 @@
 >
 ![alt text](Pictures/arborescenceFromScratch.PNG)  
 >  
+* Dans <b>Bash</b>, procéder à l'installation ou MAJ des fichiers "fonctionnels".    
+  
 
-* Installer Composer (json, lock, vendor) :
+1. <b>Installer Composer</b> (json, lock, vendor) :
 >
 composer require --dev phpunit/phpunit  
 
@@ -17,34 +19,37 @@ composer require --dev phpunit/phpunit
 ![alt text](Pictures/composerRequireFin.PNG)  
 >
 
-Dans Bash, procéder à l'installation ou MAJ des fichiers "fonctionnels".
 
-Installer Node.js (pour installer le Package.json) : 
+
+2) <b>Installer Node.js</b> (pour installer le Package.json) : 
 npm init -y  
 > ![alt text](Pictures/packageJsonNpmInit.PNG)   
 
 
-Création des fichiers CalculatorTest.php et  calculator.test.js 
+1. **Création** des fichiers **CalculatorTest.php** et  **calculator.test.js** 
 >  
 ![alt text](Pictures/CalculatorTestPhp)  
 
 
 
-Avant de lancer les tests unitaires : 
-Installer jest.config.js
-=> npx jest --init  
+#### Avant de lancer les tests unitaires :  
+1. **Installer jest.config.js**
+<i>Commande</i> : npx jest --init    
+
 ![alt text](Pictures/initialisationJest.PNG)  
->
-![alt text](Pictures/initialiationJest2.PNG)  
+
+![alt text](Pictures/initialisationJest2.PNG)
 
 
-=> npx install jest --global   
+<i>Commande</i> : npx install jest --global     
+
 ![alt text](Pictures/installationJest.PNG)
 
 
-Lancement du test sur la Calculette JS :
-=> npx jest tests/calculator.test.js  
+#### Lancement du test sur la Calculette JS :    
+
+<i>Commande</i> : npx jest tests/calculator.test.js    
 
 > ![alt text](Pictures/jestTestPassed.PNG)  
 
-Nouvel essai avec 
+![alt text](Pictures/calculatrice.PNG)    
