@@ -26,7 +26,7 @@
 > ![alt text](Pictures/packageJsonNpmInit.PNG)   
 
 
-1. **Création** des fichiers **CalculatorTest.php** et  **calculator.test.js** 
+4. **Création** des fichiers **CalculatorTest.php** et  **calculator.test.js** 
 >  
 ![alt text](Pictures/CalculatorTestPhp)  
 
