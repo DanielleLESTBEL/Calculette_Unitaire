@@ -52,18 +52,18 @@ Puis,
 >
 > ![alt text](Pictures/jestTestPassed.PNG)  
 
->La calculette : 
-![alt text](Pictures/calculatrice.PNG)    
+>La calculette :  
+> 
+>![alt text](Pictures/calculatrice.PNG)    
 
 
->Addition : 
-![alt text](Pictures/addition.PNG)   
->  
+>Addition :  
+![alt text](Pictures/addition.PNG)
 >![alt text](Pictures/addition_result.PNG)   
 
 
 >Soustraction :    
-![alt text](Pictures/soustraction.PNG)    
+![alt text](Pictures/soustraction.PNG)
 ![alt text](Pictures/soustraction_result.PNG)    
 
 
@@ -71,20 +71,20 @@ Puis,
 ![alt text](Pictures/multiplication.PNG)
 ![alt text](Pictures/multiplication_result.PNG)     
 >     
->![alt text](Pictures/multiplier0.PNG)      
+>![alt text](Pictures/multiplier0.PNG)
 >![alt text](Pictures/multiplier0_result.PNG)     
 
 >Division : 
-![alt text](Pictures/division.PNG)      
+![alt text](Pictures/division.PNG)
 ![alt text](Pictures/division_result.PNG)     
 >      
->![alt text](Pictures/diviser0.PNG)      
+>![alt text](Pictures/diviser0.PNG)
 >![alt text](Pictures/diviser0_result.PNG)
 
 >Priorisation des calculs :     
 2+3x4 => 14 (la priorisation est la multiplication [3x4] puis l'addition [12+2])     
 >      
->![alt text](Pictures/2plus3fois4.PNG)       
+>![alt text](Pictures/2plus3fois4.PNG)
 ![alt text](Pictures/2plus3fois4_result.PNG)             
 
 
