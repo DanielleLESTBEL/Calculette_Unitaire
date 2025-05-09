@@ -1,28 +1,28 @@
 ## <u> Calculette_Unitaire </u>
-****
-* Démarrer le projet CALCULETTE_UNITAIRE dans GITHUB et le cloner dans VSCode.  
+***
+1. Démarrer le projet CALCULETTE_UNITAIRE dans GITHUB et le cloner dans VSCode.  
 >
-* Créer l'arborescence selon l'énoncé de l'exercice, en ajoutant les données fournies.  
+2. Créer l'arborescence selon l'énoncé de l'exercice, en ajoutant les données fournies.  
 >
 ![alt text](Pictures/arborescenceFromScratch.PNG)  
 >  
-* Dans <b>Bash</b>, procéder à l'installation ou MAJ des fichiers "fonctionnels".    
+3. Dans <b>Bash</b>, procéder à l'installation ou MAJ des fichiers fonctionnels.    
   
 
-1. <b>Installer Composer</b> (json, lock, vendor) :
+   *  **Installer Composer** (json, lock, vendor) :
 >
-composer require --dev phpunit/phpunit  
-
-![alt text](Pictures/composerRequire.PNG)  
+> composer require --dev phpunit/phpunit  
+>
+> ![alt text](Pictures/composerRequire.PNG)  
+>
+>
+>![alt text](Pictures/composerRequireFin.PNG)  
 >
 
-![alt text](Pictures/composerRequireFin.PNG)  
+* * **Installer Node.js** (pour installer le Package.json) :  
+  
+>npm init -y  
 >
-
-
-
-2) <b>Installer Node.js</b> (pour installer le Package.json) : 
-npm init -y  
 > ![alt text](Pictures/packageJsonNpmInit.PNG)   
 
 
@@ -48,36 +48,46 @@ Puis,
 
 #### Lancement du test sur la Calculette JS :    
 
-<i>Commande</i> : npx jest tests/calculator.test.js    
-
+>*Commande* : npx jest tests/calculator.test.js    
+>
 > ![alt text](Pictures/jestTestPassed.PNG)  
 
+>La calculette : 
 ![alt text](Pictures/calculatrice.PNG)    
 
 
-Addition : 
+>Addition : 
 ![alt text](Pictures/addition.PNG)   
-  
-![alt text](Pictures/addition_result.PNG)   
+>  
+>![alt text](Pictures/addition_result.PNG)   
 
 
-Soustraction :    
+>Soustraction :    
 ![alt text](Pictures/soustraction.PNG)    
 ![alt text](Pictures/soustraction_result.PNG)    
 
 
-Multiplication :     
+>Multiplication :     
 ![alt text](Pictures/multiplication.PNG)
 ![alt text](Pictures/multiplication_result.PNG)     
      
 ![alt text](Pictures/multiplier0.PNG)      
 ![alt text](Pictures/multiplier0_result.PNG)     
 
-Division : 
+>Division : 
 ![alt text](Pictures/division.PNG)      
 ![alt text](Pictures/division_result.PNG)     
       
 ![alt text](Pictures/diviser0.PNG)      
 ![alt text](Pictures/diviser0_result.PNG)
 
-Priorisation des calculs : 
+>Priorisation des calculs :     
+2+3x4 => 14 (la priorisation est la multiplication [3x4] puis l'addition [12+2])     
+>      
+>![alt text](Pictures/2plus3fois4.PNG)       
+![alt text](Pictures/2plus3fois4_result.PNG)             
+
+
+Parenthèses dans les calculs :     
+ 
+
