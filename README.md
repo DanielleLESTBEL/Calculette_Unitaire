@@ -34,16 +34,16 @@
 
 #### Avant de lancer les tests unitaires :  
 1. **Installer jest.config.js**
-<i>Commande</i> : npx jest --init    
-
-![alt text](Pictures/initialisationJest.PNG)  
-
-![alt text](Pictures/initialisationJest2.PNG)
+>*Commande* : npx jest --init    
+>
+>![alt text](Pictures/initialisationJest.PNG)  
+>
+>![alt text](Pictures/initialisationJest2.PNG)
 
 Puis, 
-<i>Commande</i> : npx install jest --global     
-
-![alt text](Pictures/installationJest.PNG)
+>*Commande* : npx install jest --global     
+>
+>![alt text](Pictures/installationJest.PNG)
 
 
 #### Lancement du test sur la Calculette JS :    
@@ -70,16 +70,16 @@ Puis,
 >Multiplication :     
 ![alt text](Pictures/multiplication.PNG)
 ![alt text](Pictures/multiplication_result.PNG)     
-     
-![alt text](Pictures/multiplier0.PNG)      
-![alt text](Pictures/multiplier0_result.PNG)     
+>     
+>![alt text](Pictures/multiplier0.PNG)      
+>![alt text](Pictures/multiplier0_result.PNG)     
 
 >Division : 
 ![alt text](Pictures/division.PNG)      
 ![alt text](Pictures/division_result.PNG)     
-      
-![alt text](Pictures/diviser0.PNG)      
-![alt text](Pictures/diviser0_result.PNG)
+>      
+>![alt text](Pictures/diviser0.PNG)      
+>![alt text](Pictures/diviser0_result.PNG)
 
 >Priorisation des calculs :     
 2+3x4 => 14 (la priorisation est la multiplication [3x4] puis l'addition [12+2])     
