@@ -53,7 +53,6 @@ Puis,
 > ![alt text](Pictures/jestTestPassed.PNG)  
 
 >La calculette :  
-> 
 >![alt text](Pictures/calculatrice.PNG)    
 
 
